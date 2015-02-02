@@ -1,5 +1,7 @@
 // Pour ne pas polluer le scope global
 $(function () {
+    'use strict';
+
     var numParticles = 150;
     var particles = new Array(numParticles);
     var stageWidth = $(document).innerWidth();
